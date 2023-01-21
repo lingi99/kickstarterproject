@@ -7,8 +7,8 @@ Open-source Library Used:
 
 Dataset:
 - obtained from https://www.kaggle.com/datasets/kemical/kickstarter-projects
-- consisting of 15 variables (ID,name,category,main_category,currency,deadline,goal,launched,pledged,state,backers,country,usd pledged, usd_pledged_real,usd_goal_real)
-- created new variables named 'usd_difference', difference between usd_pledged_real and usd_goal_real, to see whether goals are met
+- consisting of 15 attributes (ID,name,category,main_category,currency,deadline,goal,launched,pledged,state,backers,country,usd pledged, usd_pledged_real,usd_goal_real)
+- created new attribute named 'usd_difference', difference between usd_pledged_real and usd_goal_real, to see whether goals are met
 - consisting of 378661 records
 - records with states of 'successful' and 'failed' are used in the prediction model
 - records with N.A entries are removed using #.dropna() from pandas
